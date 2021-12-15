@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri's News account</title>
+    <link rel="stylesheet" href="savedNews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Zen+Old+Mincho:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="logo">
+                <a href="../../index.html">
+                    <i class="far fa-newspaper"></i>
+                    <span>Trí Account</span>
+                </a>
+            </div>
+            <div id="titleNav">
+                <a href="../../Topic pages/world.html">World</a>    
+                <a href="../../Topic pages/politics.html">Politics</a>
+                <a href="../../Topic pages/business.html">Business</a>
+                <a href="../../Topic pages/Tech.html">Tech</a>
+                <a href="../../Topic pages/entertainment.html">Entertainment</a>
+            </div>
+            <div id="icon">
+                <a href="../account.html"><i class="fas fa-user-circle"></i></a>
+                <i class="fas fa-search"></i>
+                <a href="../../Menu/menu.html"><i class="fas fa-align-justify"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="accountMenu">
+            <div class="accountMenu-content">
+                <a href="../account.html">
+                    <i class="far fa-user-circle"></i>
+                    <span>Main page</span>
+                </a>
+            </div>
+            <div class="accountMenu-content">
+                <a href="../Like news/liked.html">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Liked News</span>
+                </a>
+            </div>
+            <div class="accountMenu-content">
+                <a href="../Saved news/savedNews.html" id="onView">
+                    <i class="far fa-save"></i>
+                    <span>Saved News</span>
+                </a>
+            </div>
+            <div class="accountMenu-content">
+                <a href="../Account upgrade/accountUpgrade.html">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Upgrade account</span>
+                </a>
+            </div>
+        </div>
+        <table id="savedNewTable">
+            <tr class="tableHead">
+              <th>Quantity</th>
+              <th>Image</th>
+              <th>News name</th>
+              <th>Topic</th>
+              <th>Date saved</th>
+            </tr>
+        </table>
+
+    </section>
+    <script src="savedNews.js"></script>
+</body>
+
+</html>

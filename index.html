@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trí Newspaper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Poppins:wght@200&family=Zen+Old+Mincho:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="logo">
+                <a href="index.html">
+                    <i class="far fa-newspaper"></i>
+                    <span>Trí Newspaper</span>
+                </a>
+            </div>
+            <div id="titleNav">
+                <a href="Topic pages/world.html">World</a>
+                <a href="Topic pages/politics.html">Politics</a>
+                <a href="Topic pages/business.html">Business</a>
+                <a href="Topic pages/Tech.html">Tech</a>
+                <a href="Topic pages/entertainment.html">Entertainment</a>
+            </div>
+            <div id="icon">
+                <a href="Account/account.html"><i class="fas fa-user-circle"></i></a>
+                <i class="fas fa-search"></i>
+                <a href="Menu/menu.html"><i class="fas fa-align-justify"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="info">
+        <a href="https://www.facebook.com/profile.php?id=100018821537144" target="blank"><i
+                class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/tovinhtri/" target="blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/TriToVinh1" target="blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <div class="subTitle" id="subtitle">
+        <a href="#latestNews">Latest News</a>
+        <a href="#mostView">Most view weekly</a>
+        <a href="#topStories">Top stories</a>
+        <a href="#covid">Covid update</a>
+        <a href="#video">Video</a>
+    </div>
+
+    <div class="container">
+        <div class="widget">
+            <div class="clock">
+                <span class="time">10:33</span>
+                <span class="ampm">AM</span>
+            </div>
+            <div class="weather">
+                <i class="fas fa-cloud-showers-heavy" id="weatherIcon"></i>
+                <p>27°C</p>
+                <i class="fas fa-map-marker-alt" id="location"></i>
+                <span>Ho Chi Minh City</span>
+            </div>
+        </div>
+        <div class="newsList">
+            <p class="newsContainer-title">Latest News</p>
+            <div id="lastestNews" class="newsContainer">
+            </div>
+
+            
+            <p class="newsContainer-title">Most view weekly</p>
+            <div id="mostView" class="newsContainer">
+            </div>
+
+
+            <p class="newsContainer-title">Top stories</p>
+            <div id="topStories" class="newsContainer">
+            </div>
+
+            
+            <p class="newsContainer-title">Covid update</p>
+            <div id="covid" class="newsContainer">
+                <div class="newsItem_large">
+                    <div class="picture">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/COVID-19_Outbreak_World_Map.svg/1920px-COVID-19_Outbreak_World_Map.svg.png"
+                            alt="Map">
+                    </div>
+                    <span class="covid">Corona case: </span> <span id="covidCase">245,463,816</span>
+                    <span class="covid">Death: </span> <span id="covidDeath">4,982,440</span>
+                </div>
+                <div class="newsItem_small">
+                    <div class="picture">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/COVID-19_Pandemic_Cases_in_Vietnam.svg/330px-COVID-19_Pandemic_Cases_in_Vietnam.svg.png"
+                            alt="Map">
+                    </div>
+                </div>
+            </div>
+            <p class="newsContainer-title">Video</p>
+            <div id="video" class="newsContainer">
+            </div>
+        </div>
+    </div>
+    <a class="go-up" href="#subtitle"><i class="fas fa-arrow-alt-circle-up"></i></a>
+    <footer>
+        <a href="index.html" class="footer_logo">
+            <i class="far fa-newspaper"></i>
+            <span>Trí Newspaper</span>
+        </a>
+        <div class="footer-content">
+            <p>About</p>
+            <p>Contact</p>
+            <p>Help</p>
+            <p>Feedback</p>
+        </div>
+        <div class="footer-content">
+            <p>Privacy Policy</p>
+            <p>Source</p>
+            <p>Term of service</p>
+            <p>Advertise</p>
+        </div>
+        <p>&copy; by Tri</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

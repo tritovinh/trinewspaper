@@ -1,0 +1,200 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(255, 196, 0);
+    color:black;
+    width:100%;
+    top:0;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titleNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleNav a{
+    padding: 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#titleNav a:hover{
+    background-color: rgb(15, 51, 170);
+    border-radius: 8px;
+    color:white;
+}
+
+#logo i{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo i:hover{
+    color:rgb(15, 51, 170);
+}
+
+#icon i{
+    font-size: 25px;
+    margin-right:5px;
+}
+
+#icon i:hover{
+    color:rgb(15, 51, 170);
+}
+
+/* accounnt menu contener */
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+.accountMenu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: calc(15% + 10px);
+    margin:10px;
+}
+
+.accountMenu-content{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.accountMenu-content:hover{
+    border-left: solid 5px rgb(255, 196, 0);
+}
+
+#onView{
+    padding: 5px;
+    background-color: rgb(15, 51, 170);
+    color:white;
+    border-radius: 8px;
+}
+/* content */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 82%;
+    margin:10px;
+}
+
+.container form{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.form-control{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 8px;
+    height: 35px;
+    font-size: 22px;
+    border: none;
+    border-bottom: solid rgb(255, 196, 0);
+}
+
+form label{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+form button{
+    margin-top: 8px;
+    padding: 5px;
+    font-size: 17px;
+    background-color: rgb(15, 51, 170);
+    color:white;
+    border-radius: 8px;
+    width: 20%;
+    float: right;
+}
+
+.payment{
+    width: 58%;
+}
+
+.item-title{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.payment-method{
+    text-align: center;
+}
+
+.payment-method i{
+    font-size: 40px;
+    margin-right: 25px;
+}
+
+.payment-method i:hover{
+    color: tomato;
+}
+
+.plan{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.plan-item{
+    border: solid 2px black;
+    border-radius: 8px;
+    width: 30%;
+    padding: 5px;
+}
+
+.plan-item:hover{
+    border: solid rgb(255, 196, 0) 5px;
+    box-shadow: grey 2px 5px 2px;
+}
+
+.plan-item-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(15, 51, 170);
+    font-weight: bold;
+}
+
+#check{
+    color:green;
+}
+
+#cross{
+    color:red;
+}
+
+.plan-item i{
+    margin: 10px;
+    font-size: 25px;
+}

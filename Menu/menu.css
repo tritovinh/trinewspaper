@@ -1,0 +1,153 @@
+/* navbar decoration */
+body{
+    font-family: 'Zen Old Mincho', serif;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(255, 196, 0);
+    color:black;
+    width:100%;
+    top:0px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titleNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleNav a{
+    padding: 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#titleNav a:hover{
+    background-color: rgb(15, 51, 170);
+    border-radius: 8px;
+    color:white;
+}
+
+#logo i{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo i:hover{
+    color:rgb(15, 51, 170);
+}
+
+#icon i{
+    font-size: 25px;
+    margin-right:5px;
+}
+
+#icon i:hover{
+    color:rgb(15, 51, 170);
+}
+
+/* contact */
+.info{
+    width: 50px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position:fixed;
+    top: 250px;
+    left: 30px;
+    z-index: 2;
+}
+
+.info a{
+    color: rgb(15, 51, 170);
+    font-size: 40px;
+}
+
+.info a:hover{
+    color:rgba(255, 196, 0, 0.808);
+}
+
+/* menu */
+.search_form input{
+    padding: 5px;
+    height: 30px;
+    width: 900px;
+}
+
+.search_form{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:10px;
+    margin-top:20px;
+}
+
+.menu-item{
+    font-size: 20px;
+    padding: 18px;
+}
+
+.mennu-item a{
+    margin:3px;
+    width: 100%;
+    display: block;
+}
+
+.menu-item a:hover{
+    border-left: solid 10px rgb(255, 196, 0);
+}
+
+.menuTitle{
+    font-size: 25px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(15, 51, 170);
+    color:rgb(255, 196, 0);
+    padding:25px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.footer_logo {
+    color:rgb(255, 196, 0);
+    font-size: 40px;
+}
+
+footer p{
+    padding:5px;
+    font-size: 20px;
+}
+
+footer p:hover{
+    border-left:solid 10px rgb(255, 196, 0);
+}
+

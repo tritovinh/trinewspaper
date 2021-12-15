@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(255, 196, 0);
+    color:black;
+    width:100%;
+    top:0;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titleNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleNav a{
+    padding: 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#titleNav a:hover{
+    background-color: rgb(15, 51, 170);
+    border-radius: 8px;
+    color:white;
+}
+
+#logo i{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo i:hover{
+    color:rgb(15, 51, 170);
+}
+
+#icon i{
+    font-size: 25px;
+    margin-right:5px;
+}
+
+#icon i:hover{
+    color:rgb(15, 51, 170);
+}
+
+/* accounnt menu contener */
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+.accountMenu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: calc(15% + 10px);
+    margin:10px;
+}
+
+.accountMenu-content{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.accountMenu-content:hover{
+    border-left: solid 5px rgb(255, 196, 0);
+}
+
+#onView{
+    padding: 5px;
+    background-color: rgb(15, 51, 170);
+    color:white;
+    border-radius: 8px;
+}
+
+#savedNewTable{
+    padding: 10px;
+    justify-content: top;
+    width: calc(85% + 10px);
+    margin:10px;
+}
+
+#savedNewTable img{
+    height: 150px;
+}
+
+#savedNewTable tr{
+    font-size: 25px;
+    border: solid;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+  
+td, th {
+    border:solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:not(.tableHead):hover{
+    background-color: tomato;
+}
+
